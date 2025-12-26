@@ -151,7 +151,6 @@ dependencies {
     
     // LocalBroadcastManager for service communication
     implementation("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
-    
     // DataStore for settings
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
@@ -195,6 +194,9 @@ dependencies {
 
     // Markdown parser for extracting code blocks
     implementation("com.vladsch.flexmark:flexmark-all:0.64.8")
+
+    // === НОВА ЗАЛЕЖНІСТЬ ДЛЯ GEMINI API ===
+    implementation("com.google.ai.client.generativeai:generativeai:0.8.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
